@@ -1,0 +1,56 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Projects\\RiderProjects\\TestConsoleApp\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+    "projectName": "ConsoleApp1",
+    "projectPath": "C:\\Projects\\RiderProjects\\TestConsoleApp\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+    "outputPath": "C:\\Projects\\RiderProjects\\TestConsoleApp\\ConsoleApp1\\ConsoleApp1\\obj\\",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp3.1"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp3.1": {
+      "dependencies": {
+        "Dapper": {
+          "target": "Package",
+          "version": "[2.0.35, )"
+        },
+        "Newtonsoft.Json": {
+          "target": "Package",
+          "version": "[12.0.3, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true,
+      "frameworkReferences": {
+        "Microsoft.NETCore.App": {
+          "privateAssets": "all"
+        }
+      },
+      "runtimeIdentifierGraphPath": "C:\\Users\\aciobanu\\.dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+    }
+  }
+}
