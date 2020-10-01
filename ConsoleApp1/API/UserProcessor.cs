@@ -1,6 +1,7 @@
 using System;
 using System.Diagnostics;
 using ConsoleApp1.API.DataSourceAccessers;
+using ConsoleApp1.API.Enums;
 using ConsoleApp1.API.Static_classes;
 using ConsoleApp1.Models;
 
@@ -29,30 +30,20 @@ namespace ConsoleApp1.API
             DataSourceAccesser = dataSourceAccesser;
         }
 
-        public void Process(string operation)
+        public void Process(OperationType operation)
         {
-            if (operation == "Add")
+            if (operation == OperationType.Add)
             {
-                var user = new User()
-                {
-                    Name = "Name",
-                    Location = "Location",
-                    Job = "Job",
-                    Project = "Project"
-                };
+                var user = new User("Name", "Location", "Job", "Project");
 
                 UserManager.AddUser(user);
 
                 DataSourceAccesser.AddUser(user);
             }
-            else if (operation == "Get")
+            else if (operation == OperationType.Get)
             {
                 UserManager.AddUser(DataSourceAccesser.GetUser());
                 UserManager.PrintUsersToConsole();
-            }
-            else
-            {
-                throw new ArgumentException("source should be either Add or Get");
             }
         }
     }

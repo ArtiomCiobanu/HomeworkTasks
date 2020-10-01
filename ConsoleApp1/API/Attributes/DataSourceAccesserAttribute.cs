@@ -1,4 +1,5 @@
 using System;
+using ConsoleApp1.API.Enums;
 
 namespace ConsoleApp1.API.Attributes
 {

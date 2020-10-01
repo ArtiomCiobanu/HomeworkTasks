@@ -4,6 +4,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using ConsoleApp1.API;
 using ConsoleApp1.API.DataSourceAccessers;
+using ConsoleApp1.API.Enums;
 using ConsoleApp1.API.Static_classes;
 using ConsoleApp1.Models;
 using Dapper;
@@ -23,8 +24,11 @@ namespace ConsoleApp1
             //For debug use only
             args = "Memory Get".Split();
 
-            AccesserType source = Enum.Parse<AccesserType>(args[0]);
-            string operation = args[1];
+            Enum.TryParse<AccesserType>(args[0], out var source);
+            Enum.TryParse<OperationType>(args[1], out var operation);
+            
+            //AccesserType source = Enum.Parse<AccesserType>(args[0]);
+            //OperationType operation = Enum.Parse<OperationType>(args[1]);
 
             UserProcessor userProcessor = new UserProcessor(source);
             userProcessor.Process(operation);

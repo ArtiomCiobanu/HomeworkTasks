@@ -1,6 +1,7 @@
 using System;
 using System.IO;
 using ConsoleApp1.API.Attributes;
+using ConsoleApp1.API.Enums;
 using ConsoleApp1.Models;
 
 namespace ConsoleApp1.API.DataSourceAccessers
@@ -10,13 +11,11 @@ namespace ConsoleApp1.API.DataSourceAccessers
     {
         public User GetUser()
         {
-            return new User()
-            {
-                Name = "FileUserName",
-                Location = "FileUserLocation",
-                Job = "FileUserJob",
-                Project = "FileUserProject"
-            };
+            return new User(
+                "FileUserName",
+                "FileLocation",
+                "FileJob",
+                "FileProject");
         }
 
         public void AddUser(User user)

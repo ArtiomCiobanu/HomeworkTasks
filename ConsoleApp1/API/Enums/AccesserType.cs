@@ -1,4 +1,4 @@
-namespace ConsoleApp1.API
+namespace ConsoleApp1.API.Enums
 {
     public enum AccesserType
     {

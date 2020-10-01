@@ -2,9 +2,17 @@ namespace ConsoleApp1.Models
 {
     public class User
     {
-        public string Name { get; set; }
-        public string Location { get; set; }
-        public string Job { get; set; }
-        public string Project { get; set; }
+        public string Name { get; }
+        public string Location { get; }
+        public string Job { get; }
+        public string Project { get; }
+
+        public User(string name, string location, string job, string project)
+        {
+            Name = name;
+            Location = location;
+            Job = job;
+            Project = project;
+        }
     }
 }

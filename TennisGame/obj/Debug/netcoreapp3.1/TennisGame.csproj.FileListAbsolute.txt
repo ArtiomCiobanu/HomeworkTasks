@@ -1,0 +1,13 @@
+C:\Projects\RiderProjects\TestConsoleApp\ConsoleApp1\TennisGame\bin\Debug\netcoreapp3.1\TennisGame.exe
+C:\Projects\RiderProjects\TestConsoleApp\ConsoleApp1\TennisGame\bin\Debug\netcoreapp3.1\TennisGame.deps.json
+C:\Projects\RiderProjects\TestConsoleApp\ConsoleApp1\TennisGame\bin\Debug\netcoreapp3.1\TennisGame.runtimeconfig.json
+C:\Projects\RiderProjects\TestConsoleApp\ConsoleApp1\TennisGame\bin\Debug\netcoreapp3.1\TennisGame.runtimeconfig.dev.json
+C:\Projects\RiderProjects\TestConsoleApp\ConsoleApp1\TennisGame\bin\Debug\netcoreapp3.1\TennisGame.dll
+C:\Projects\RiderProjects\TestConsoleApp\ConsoleApp1\TennisGame\bin\Debug\netcoreapp3.1\TennisGame.pdb
+C:\Projects\RiderProjects\TestConsoleApp\ConsoleApp1\TennisGame\obj\Debug\netcoreapp3.1\TennisGame.csprojAssemblyReference.cache
+C:\Projects\RiderProjects\TestConsoleApp\ConsoleApp1\TennisGame\obj\Debug\netcoreapp3.1\TennisGame.AssemblyInfoInputs.cache
+C:\Projects\RiderProjects\TestConsoleApp\ConsoleApp1\TennisGame\obj\Debug\netcoreapp3.1\TennisGame.AssemblyInfo.cs
+C:\Projects\RiderProjects\TestConsoleApp\ConsoleApp1\TennisGame\obj\Debug\netcoreapp3.1\TennisGame.csproj.CoreCompileInputs.cache
+C:\Projects\RiderProjects\TestConsoleApp\ConsoleApp1\TennisGame\obj\Debug\netcoreapp3.1\TennisGame.dll
+C:\Projects\RiderProjects\TestConsoleApp\ConsoleApp1\TennisGame\obj\Debug\netcoreapp3.1\TennisGame.pdb
+C:\Projects\RiderProjects\TestConsoleApp\ConsoleApp1\TennisGame\obj\Debug\netcoreapp3.1\TennisGame.genruntimeconfig.cache
