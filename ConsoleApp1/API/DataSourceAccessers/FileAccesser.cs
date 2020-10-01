@@ -1,9 +1,11 @@
 using System;
 using System.IO;
+using ConsoleApp1.API.Attributes;
 using ConsoleApp1.Models;
 
 namespace ConsoleApp1.API.DataSourceAccessers
 {
+    [DataSourceAccesser((AccesserType.File))]
     public class FileAccesser : IDataSourceAccesser
     {
         public User GetUser()

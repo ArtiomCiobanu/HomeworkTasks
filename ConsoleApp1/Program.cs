@@ -22,14 +22,11 @@ namespace ConsoleApp1
         {
             //For debug use only
             args = "Memory Get".Split();
-            
-            string source = args[0];
+
+            AccesserType source = Enum.Parse<AccesserType>(args[0]);
             string operation = args[1];
 
-            UserProcessor userProcessor = new UserProcessor();
-            IDataSourceAccesser dataSourceAccesser = DataSourceAccesserManager.GetSaverForSource(source);
-
-            userProcessor.SetSaver(dataSourceAccesser);
+            UserProcessor userProcessor = new UserProcessor(source);
             userProcessor.Process(operation);
         }
     }

@@ -4,6 +4,10 @@
     <e p="C:\Projects\RiderProjects\TestConsoleApp\ConsoleApp1" t="IncludeFlat">
       <e p="ConsoleApp1" t="IncludeRecursive">
         <e p="API" t="Include">
+          <e p="AccesserType.cs" t="Include" />
+          <e p="Attributes" t="Include">
+            <e p="DataSourceAccesserAttribute.cs" t="Include" />
+          </e>
           <e p="DataSourceAccessers" t="Include">
             <e p="DatabaseAccessser.cs" t="Include" />
             <e p="FileAccesser.cs" t="Include" />
@@ -11,7 +15,7 @@
             <e p="MemoryAccesser.cs" t="Include" />
           </e>
           <e p="Static classes" t="Include">
-            <e p="DataSourceAccesserManager.cs" t="Include" />
+            <e p="DataSourceAccesserFactory.cs" t="Include" />
             <e p="UserManager.cs" t="Include" />
           </e>
           <e p="UserProcessor.cs" t="Include" />

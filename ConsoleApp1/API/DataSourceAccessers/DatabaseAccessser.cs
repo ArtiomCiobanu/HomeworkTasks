@@ -1,8 +1,10 @@
 using System;
+using ConsoleApp1.API.Attributes;
 using ConsoleApp1.Models;
 
 namespace ConsoleApp1.API.DataSourceAccessers
 {
+    [DataSourceAccesser(AccesserType.Database)]
     public class DatabaseAccessser : IDataSourceAccesser
     {
         public User GetUser()

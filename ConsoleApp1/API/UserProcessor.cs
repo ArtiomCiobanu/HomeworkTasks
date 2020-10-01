@@ -19,7 +19,12 @@ namespace ConsoleApp1.API
             DataSourceAccesser = dataSourceAccesser;
         }
 
-        public void SetSaver(IDataSourceAccesser dataSourceAccesser)
+        public UserProcessor(AccesserType accesserType)
+        {
+            DataSourceAccesser = DataSourceAccesserFactory.Instance.GetAccesserForSource(accesserType);
+        }
+
+        public void SetDataAccesser(IDataSourceAccesser dataSourceAccesser)
         {
             DataSourceAccesser = dataSourceAccesser;
         }
