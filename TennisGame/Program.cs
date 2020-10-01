@@ -8,7 +8,7 @@ namespace TennisGame
         {
             var tennisGame = new API.TennisGame("player1", "player2");
 
-            string[] pointsOrder = {"player1", "player1", "player2", "player2", "player1", "player1"};
+            string[] pointsOrder = {"player1", "player2", "player2", "player2", "player1", "player1"};
 
             foreach (var playerName in pointsOrder)
             {

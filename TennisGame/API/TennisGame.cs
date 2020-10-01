@@ -36,7 +36,8 @@ namespace TennisGame.API
 
         public void PrintScore()
         {
-            Player leadingPlayer = Players.First().Value;
+            int leadingPlayerScore = Players.First().Value.Score;
+
             var lastPlayerName = Players.Last().Key;
             foreach (var (playerName, player) in Players)
             {
@@ -50,13 +51,36 @@ namespace TennisGame.API
                     Console.WriteLine();
                 }
 
-                if (leadingPlayer.Score < player.Score)
+                if (leadingPlayerScore < player.Score)
                 {
-                    leadingPlayer = player;
+                    leadingPlayerScore = player.Score;
                 }
             }
 
-            Console.WriteLine($"{leadingPlayer.Name} has advantage!");
+            var leadingPlayers =
+                Players.Where(p => p.Value.Score == leadingPlayerScore).Select(pair => pair.Value).ToArray();
+            var lastLeadingPlayer = leadingPlayers.Last();
+
+            if (leadingPlayers.Count() > 1)
+            {
+                Console.Write("The following playes equally are the best: ");
+                foreach (var player in leadingPlayers)
+                {
+                    Console.Write($"{player.Name}");
+                    if (player != lastLeadingPlayer)
+                    {
+                        Console.Write(", ");
+                    }
+                    else
+                    {
+                        Console.WriteLine();
+                    }
+                }
+            }
+            else
+            {
+                Console.WriteLine($"{leadingPlayers.First().Name} has advantage!");
+            }
         }
     }
 }

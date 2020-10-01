@@ -24,54 +24,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed59f49c-30a0-4a3c-9954-35050a3024fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ConsoleApp1/API/Enums/OperationType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TennisGame/API/Player.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TennisGame/API/TennisGame.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TennisGame/Old/BadProgram.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TennisGame/Old/BadTennisGame.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TennisGame/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TennisGame/TennisGame.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TennisGame/bin/Debug/netcoreapp3.1/TennisGame.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TennisGame/bin/Debug/netcoreapp3.1/TennisGame.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TennisGame/bin/Debug/netcoreapp3.1/TennisGame.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TennisGame/bin/Debug/netcoreapp3.1/TennisGame.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TennisGame/bin/Debug/netcoreapp3.1/TennisGame.runtimeconfig.dev.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TennisGame/bin/Debug/netcoreapp3.1/TennisGame.runtimeconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TennisGame/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TennisGame/obj/Debug/netcoreapp3.1/TennisGame.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TennisGame/obj/Debug/netcoreapp3.1/TennisGame.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TennisGame/obj/Debug/netcoreapp3.1/TennisGame.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TennisGame/obj/Debug/netcoreapp3.1/TennisGame.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TennisGame/obj/Debug/netcoreapp3.1/TennisGame.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TennisGame/obj/Debug/netcoreapp3.1/TennisGame.csprojAssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TennisGame/obj/Debug/netcoreapp3.1/TennisGame.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TennisGame/obj/Debug/netcoreapp3.1/TennisGame.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TennisGame/obj/Debug/netcoreapp3.1/TennisGame.genruntimeconfig.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TennisGame/obj/Debug/netcoreapp3.1/TennisGame.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TennisGame/obj/TennisGame.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TennisGame/obj/TennisGame.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TennisGame/obj/TennisGame.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TennisGame/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TennisGame/obj/project.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TennisGame/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TennisGame/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleApp1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleApp1/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleApp1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleApp1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp1.sln" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp1/API/AccesserType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/API/Enums/AccesserType.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp1/API/Attributes/DataSourceAccesserAttribute.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/API/Attributes/DataSourceAccesserAttribute.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp1/API/DataSourceAccessers/DatabaseAccessser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/API/DataSourceAccessers/DatabaseAccessser.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp1/API/DataSourceAccessers/FileAccesser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/API/DataSourceAccessers/FileAccesser.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp1/API/DataSourceAccessers/MemoryAccesser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/API/DataSourceAccessers/MemoryAccesser.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp1/API/Static classes/DataSourceAccesserFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/API/Static classes/DataSourceAccesserFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp1/API/UserProcessor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/API/UserProcessor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp1/Models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/Models/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp1/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp1/bin/Debug/netcoreapp3.1/ConsoleApp1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/bin/Debug/netcoreapp3.1/ConsoleApp1.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp1/bin/Debug/netcoreapp3.1/ConsoleApp1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/bin/Debug/netcoreapp3.1/ConsoleApp1.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/netcoreapp3.1/ConsoleApp1.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/netcoreapp3.1/ConsoleApp1.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/netcoreapp3.1/ConsoleApp1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/netcoreapp3.1/ConsoleApp1.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/netcoreapp3.1/ConsoleApp1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp1/obj/Debug/netcoreapp3.1/ConsoleApp1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TennisGame/API/TennisGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TennisGame/API/TennisGame.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TennisGame/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TennisGame/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TennisGame/bin/Debug/netcoreapp3.1/TennisGame.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TennisGame/bin/Debug/netcoreapp3.1/TennisGame.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TennisGame/bin/Debug/netcoreapp3.1/TennisGame.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TennisGame/bin/Debug/netcoreapp3.1/TennisGame.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TennisGame/obj/Debug/netcoreapp3.1/TennisGame.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TennisGame/obj/Debug/netcoreapp3.1/TennisGame.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TennisGame/obj/Debug/netcoreapp3.1/TennisGame.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TennisGame/obj/Debug/netcoreapp3.1/TennisGame.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +67,6 @@
         <option value="$PROJECT_DIR$/ConsoleApp1/API/Getters/IGetter.cs" />
         <option value="$PROJECT_DIR$/ConsoleApp1/API/UserManager.cs" />
         <option value="$PROJECT_DIR$/ConsoleApp1/API/Savers/IDataSourceAccesser.cs" />
-        <option value="$PROJECT_DIR$/ConsoleApp1/API/DataSourceAccessers/IDataSourceAccesser.cs" />
         <option value="$PROJECT_DIR$/ConsoleApp1/API/SaverManager.cs" />
         <option value="$PROJECT_DIR$/ConsoleApp1/API/DataSourceAccesserManager.cs" />
         <option value="$PROJECT_DIR$/ConsoleApp1/API/Static classes/UserManager.cs" />
@@ -118,17 +80,18 @@
         <option value="$PROJECT_DIR$/TennisGame/Old/BadProgram.cs" />
         <option value="$PROJECT_DIR$/TennisGame/TennisGame.cs" />
         <option value="$PROJECT_DIR$/ConsoleApp1/Models/User.cs" />
-        <option value="$PROJECT_DIR$/ConsoleApp1/API/DataSourceAccessers/DatabaseAccessser.cs" />
         <option value="$PROJECT_DIR$/ConsoleApp1/API/DataSourceAccessers/FileAccesser.cs" />
         <option value="$PROJECT_DIR$/ConsoleApp1/API/DataSourceAccessers/MemoryAccesser.cs" />
         <option value="$PROJECT_DIR$/TennisGame/Old/BadTennisGame.cs" />
         <option value="$PROJECT_DIR$/TennisGame/API/Player.cs" />
-        <option value="$PROJECT_DIR$/TennisGame/API/TennisGame.cs" />
-        <option value="$PROJECT_DIR$/TennisGame/Program.cs" />
         <option value="$PROJECT_DIR$/ConsoleApp1/API/Enums/AccesserType.cs" />
         <option value="$PROJECT_DIR$/ConsoleApp1/API/Enums/OperationType.cs" />
         <option value="$PROJECT_DIR$/ConsoleApp1/Program.cs" />
         <option value="$PROJECT_DIR$/ConsoleApp1/API/UserProcessor.cs" />
+        <option value="$PROJECT_DIR$/ConsoleApp1/API/DataSourceAccessers/IDataSourceAccesser.cs" />
+        <option value="$PROJECT_DIR$/ConsoleApp1/API/DataSourceAccessers/DatabaseAccessser.cs" />
+        <option value="$PROJECT_DIR$/TennisGame/Program.cs" />
+        <option value="$PROJECT_DIR$/TennisGame/API/TennisGame.cs" />
       </list>
     </option>
   </component>
@@ -153,10 +116,10 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="CodeCleanupOptionsPage" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project.ConsoleApp1">
+  <component name="RunManager" selected=".NET Project.TennisGame">
     <configuration name="ConsoleApp1" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -213,7 +176,7 @@
       <workItem from="1601471021644" duration="2303000" />
       <workItem from="1601531100160" duration="6959000" />
       <workItem from="1601539098534" duration="6068000" />
-      <workItem from="1601550646115" duration="943000" />
+      <workItem from="1601550646115" duration="1665000" />
     </task>
     <servers />
   </component>
@@ -251,22 +214,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="540" y="117" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1601401130829" />
-    <state width="1493" height="409" key="GridCell.Tab.0.bottom" timestamp="1601551300834">
+    <state width="1493" height="214" key="GridCell.Tab.0.bottom" timestamp="1601552300810">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="409" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601551300834" />
-    <state width="1493" height="409" key="GridCell.Tab.0.center" timestamp="1601551300834">
+    <state width="1493" height="214" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601552300810" />
+    <state width="1493" height="214" key="GridCell.Tab.0.center" timestamp="1601552300810">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="409" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601551300834" />
-    <state width="1493" height="409" key="GridCell.Tab.0.left" timestamp="1601551300834">
+    <state width="1493" height="214" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601552300810" />
+    <state width="1493" height="214" key="GridCell.Tab.0.left" timestamp="1601552300810">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="409" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601551300834" />
-    <state width="1493" height="409" key="GridCell.Tab.0.right" timestamp="1601551300834">
+    <state width="1493" height="214" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601552300809" />
+    <state width="1493" height="214" key="GridCell.Tab.0.right" timestamp="1601552300810">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="409" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601551300834" />
+    <state width="1493" height="214" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601552300810" />
     <state width="1493" height="288" key="GridCell.Tab.1.bottom" timestamp="1601538346578">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -339,13 +302,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="601" y="114" key="RiderGenerateDialog/0.0.1536.824@0.0.1536.824" timestamp="1601400538374" />
-    <state x="277" y="57" width="1163" height="709" key="SettingsEditor" timestamp="1601551513096">
+    <state x="277" y="57" width="1163" height="709" key="SettingsEditor" timestamp="1601552187354">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="57" width="1163" height="709" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1601551513096" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1601472458830">
+    <state x="277" y="57" width="1163" height="709" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1601552187354" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1601552056939">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1601472458830" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1601552056939" />
   </component>
 </project>
