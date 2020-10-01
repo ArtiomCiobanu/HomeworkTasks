@@ -41,8 +41,6 @@ namespace ConsoleApp1.API.Static_classes
                 var types = AppDomain.CurrentDomain.GetAssemblies().SelectMany(assembly => assembly.GetTypes())
                     .Where(t => interfaceType.IsAssignableFrom(t) && !t.IsInterface).ToArray();
 
-                var names = types.Select(type => type.Name).ToArray();
-
                 var attributes = types.SelectMany(type =>
                     type.GetCustomAttributes(attributeType, false)).ToArray();
 
