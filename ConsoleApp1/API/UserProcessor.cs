@@ -32,18 +32,21 @@ namespace ConsoleApp1.API
 
         public void Process(OperationType operation)
         {
-            if (operation == OperationType.Add)
+            switch (operation)
             {
-                var user = new User("Name", "Location", "Job", "Project");
+                case OperationType.Add:
+                    var user = new User("Name", "Location", "Job", "Project");
 
-                UserManager.AddUser(user);
+                    UserManager.AddUser(user);
 
-                DataSourceAccesser.AddUser(user);
-            }
-            else if (operation == OperationType.Get)
-            {
-                UserManager.AddUser(DataSourceAccesser.GetUser());
-                UserManager.PrintUsersToConsole();
+                    DataSourceAccesser.AddUser(user);
+                    break;
+                case OperationType.Get:
+                    UserManager.AddUser(DataSourceAccesser.GetUser());
+                    UserManager.PrintUsersToConsole();
+                    break;
+                default:
+                    break;
             }
         }
     }

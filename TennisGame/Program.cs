@@ -12,7 +12,7 @@ namespace TennisGame
 
             foreach (var playerName in pointsOrder)
             {
-                tennisGame.AddOnePointToPlayer(playerName);
+                tennisGame.IncreasePlayerScore(playerName);
                 tennisGame.PrintScore();
             }
         }

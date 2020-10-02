@@ -46,6 +46,7 @@
       <e p="TennisGame" t="IncludeRecursive">
         <e p="API" t="Include">
           <e p="Player.cs" t="Include" />
+          <e p="ScoreCounter.cs" t="Include" />
           <e p="TennisGame.cs" t="Include" />
         </e>
         <e p="bin" t="ExcludeRecursive" />

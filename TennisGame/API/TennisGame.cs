@@ -8,6 +8,22 @@ namespace TennisGame.API
     {
         private Dictionary<string, Player> Players { get; }
 
+        private ScoreCounter _scoreCounter;
+
+        private ScoreCounter ScoreCounter
+        {
+            get
+            {
+                if (_scoreCounter == null)
+                {
+                    _scoreCounter = new ScoreCounter(Players);
+                }
+
+                return _scoreCounter;
+            }
+        }
+
+
         public TennisGame(Player player1, Player player2)
         {
             Players = new Dictionary<string, Player>()
@@ -26,12 +42,9 @@ namespace TennisGame.API
             };
         }
 
-        public void AddOnePointToPlayer(string name)
+        public void IncreasePlayerScore(string name)
         {
-            if (Players.ContainsKey(name))
-            {
-                Players[name].AddOnePoint();
-            }
+            ScoreCounter.IncreasePlayerScore(name);
         }
 
         public void PrintScore()
