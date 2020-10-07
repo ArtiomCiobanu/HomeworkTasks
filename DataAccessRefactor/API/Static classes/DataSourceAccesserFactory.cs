@@ -1,11 +1,11 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using ConsoleApp1.API.Attributes;
-using ConsoleApp1.API.DataSourceAccessers;
-using ConsoleApp1.API.Enums;
+using DataAccessRefactor.API.Attributes;
+using DataAccessRefactor.API.DataSourceAccessers;
+using DataAccessRefactor.API.Enums;
 
-namespace ConsoleApp1.API.Static_classes
+namespace DataAccessRefactor.API.Static_classes
 {
     public class DataSourceAccesserFactory
     {

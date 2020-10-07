@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using DIHomeworkCiobanuArtiom.Models;
+using DependencyInjection.Models;
 
-namespace DIHomeworkCiobanuArtiom.API.DataSourceAccessers
+namespace DependencyInjection.API.DataSourceAccessers
 {
     public class JsonAccesser : IDataSourceAccesser<UserTask>
     {

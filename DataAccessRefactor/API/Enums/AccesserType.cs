@@ -1,4 +1,4 @@
-namespace ConsoleApp1.API.Enums
+namespace DataAccessRefactor.API.Enums
 {
     public enum AccesserType
     {

@@ -1,7 +1,7 @@
 using System;
-using ConsoleApp1.API.Enums;
+using DataAccessRefactor.API.Enums;
 
-namespace ConsoleApp1.API.Attributes
+namespace DataAccessRefactor.API.Attributes
 {
     [AttributeUsage(AttributeTargets.Class)]
     public class DataSourceAccesserAttribute : Attribute

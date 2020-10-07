@@ -1,0 +1,13 @@
+D:\Projects\HomeworkTasks\TennisGameRefactor\bin\Debug\netcoreapp3.1\TennisGameRefactor.exe
+D:\Projects\HomeworkTasks\TennisGameRefactor\bin\Debug\netcoreapp3.1\TennisGameRefactor.deps.json
+D:\Projects\HomeworkTasks\TennisGameRefactor\bin\Debug\netcoreapp3.1\TennisGameRefactor.runtimeconfig.json
+D:\Projects\HomeworkTasks\TennisGameRefactor\bin\Debug\netcoreapp3.1\TennisGameRefactor.runtimeconfig.dev.json
+D:\Projects\HomeworkTasks\TennisGameRefactor\bin\Debug\netcoreapp3.1\TennisGameRefactor.dll
+D:\Projects\HomeworkTasks\TennisGameRefactor\bin\Debug\netcoreapp3.1\TennisGameRefactor.pdb
+D:\Projects\HomeworkTasks\TennisGameRefactor\obj\Debug\netcoreapp3.1\TennisGameRefactor.csprojAssemblyReference.cache
+D:\Projects\HomeworkTasks\TennisGameRefactor\obj\Debug\netcoreapp3.1\TennisGameRefactor.AssemblyInfoInputs.cache
+D:\Projects\HomeworkTasks\TennisGameRefactor\obj\Debug\netcoreapp3.1\TennisGameRefactor.AssemblyInfo.cs
+D:\Projects\HomeworkTasks\TennisGameRefactor\obj\Debug\netcoreapp3.1\TennisGameRefactor.csproj.CoreCompileInputs.cache
+D:\Projects\HomeworkTasks\TennisGameRefactor\obj\Debug\netcoreapp3.1\TennisGameRefactor.dll
+D:\Projects\HomeworkTasks\TennisGameRefactor\obj\Debug\netcoreapp3.1\TennisGameRefactor.pdb
+D:\Projects\HomeworkTasks\TennisGameRefactor\obj\Debug\netcoreapp3.1\TennisGameRefactor.genruntimeconfig.cache

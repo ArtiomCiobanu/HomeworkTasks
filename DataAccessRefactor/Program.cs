@@ -1,16 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Data.SqlClient;
-using System.Linq;
-using ConsoleApp1.API;
-using ConsoleApp1.API.DataSourceAccessers;
-using ConsoleApp1.API.Enums;
-using ConsoleApp1.API.Static_classes;
-using ConsoleApp1.Models;
-using Dapper;
-using Newtonsoft.Json;
+using DataAccessRefactor.API;
+using DataAccessRefactor.API.Enums;
 
-namespace ConsoleApp1
+namespace DataAccessRefactor
 {
     /*
         This program can add and read employee data to/from different types of sources: memory, file, database.

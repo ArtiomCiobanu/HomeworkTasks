@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace TennisGame.API
+namespace TennisGameRefactor.API
 {
     public class ScoreCounter
     {

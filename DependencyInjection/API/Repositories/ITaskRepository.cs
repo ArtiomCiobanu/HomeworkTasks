@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using DIHomeworkCiobanuArtiom.Models;
+using DependencyInjection.Models;
 
-namespace DIHomeworkCiobanuArtiom.API.Repositories
+namespace DependencyInjection.API.Repositories
 {
     public interface ITaskRepository
     {

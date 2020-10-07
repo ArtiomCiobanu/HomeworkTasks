@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace TennisGame.API
+namespace TennisGameRefactor.API
 {
     public class TennisGame
     {

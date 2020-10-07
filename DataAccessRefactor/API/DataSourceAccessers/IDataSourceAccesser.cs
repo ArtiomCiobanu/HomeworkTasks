@@ -1,6 +1,6 @@
-using ConsoleApp1.Models;
+using DataAccessRefactor.Models;
 
-namespace ConsoleApp1.API.DataSourceAccessers
+namespace DataAccessRefactor.API.DataSourceAccessers
 {
     public interface IDataSourceAccesser
     {

@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
-using DIHomeworkCiobanuArtiom.Models;
 
-namespace DIHomeworkCiobanuArtiom.API.DataSourceAccessers
+namespace DependencyInjection.API.DataSourceAccessers
 {
     public interface IDataSourceAccesser<Model> where Model : class
     {

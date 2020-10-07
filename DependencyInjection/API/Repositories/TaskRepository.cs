@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using DIHomeworkCiobanuArtiom.API.DataSourceAccessers;
-using DIHomeworkCiobanuArtiom.Models;
+using DependencyInjection.API.DataSourceAccessers;
+using DependencyInjection.Models;
 
-namespace DIHomeworkCiobanuArtiom.API.Repositories
+namespace DependencyInjection.API.Repositories
 {
     public class TaskRepository : ITaskRepository
     {

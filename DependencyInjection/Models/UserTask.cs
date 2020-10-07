@@ -1,4 +1,4 @@
-﻿namespace DIHomeworkCiobanuArtiom.Models
+﻿namespace DependencyInjection.Models
 {
     public class UserTask
     {

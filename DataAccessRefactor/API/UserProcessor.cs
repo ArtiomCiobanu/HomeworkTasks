@@ -1,11 +1,11 @@
 using System;
 using System.Diagnostics;
-using ConsoleApp1.API.DataSourceAccessers;
-using ConsoleApp1.API.Enums;
-using ConsoleApp1.API.Static_classes;
-using ConsoleApp1.Models;
+using DataAccessRefactor.API.DataSourceAccessers;
+using DataAccessRefactor.API.Enums;
+using DataAccessRefactor.API.Static_classes;
+using DataAccessRefactor.Models;
 
-namespace ConsoleApp1.API
+namespace DataAccessRefactor.API
 {
     public class UserProcessor
     {

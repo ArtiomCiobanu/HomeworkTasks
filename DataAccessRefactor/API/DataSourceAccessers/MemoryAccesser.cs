@@ -1,9 +1,9 @@
 using System;
-using ConsoleApp1.API.Attributes;
-using ConsoleApp1.API.Enums;
-using ConsoleApp1.Models;
+using DataAccessRefactor.API.Attributes;
+using DataAccessRefactor.API.Enums;
+using DataAccessRefactor.Models;
 
-namespace ConsoleApp1.API.DataSourceAccessers
+namespace DataAccessRefactor.API.DataSourceAccessers
 {
     [DataSourceAccesser(AccesserType.Memory)]
     public class MemoryAccesser : IDataSourceAccesser

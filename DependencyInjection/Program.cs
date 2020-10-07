@@ -1,12 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using Autofac;
-using DIHomeworkCiobanuArtiom.API.DataSourceAccessers;
-using DIHomeworkCiobanuArtiom.API.Repositories;
-using DIHomeworkCiobanuArtiom.Models;
+using DependencyInjection.API.DataSourceAccessers;
+using DependencyInjection.API.Repositories;
+using DependencyInjection.Models;
 
-namespace DIHomeworkCiobanuArtiom
+namespace DependencyInjection
 {
     class Program
     {

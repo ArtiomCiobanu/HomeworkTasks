@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
-using ConsoleApp1.Models;
+using DataAccessRefactor.Models;
 
-namespace ConsoleApp1.API.Static_classes
+namespace DataAccessRefactor.API.Static_classes
 {
     public static class UserManager
     {

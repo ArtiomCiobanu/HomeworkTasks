@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ConsoleApp1.Old
+namespace DataAccessRefactor.Old
 {
     public static class SwitchTest
     {

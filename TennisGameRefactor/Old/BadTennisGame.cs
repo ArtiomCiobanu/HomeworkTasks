@@ -1,4 +1,4 @@
-﻿namespace OOP_Exercise_2
+﻿namespace TennisGameRefactor.Old
 {
     class BadTennisGame
     {
