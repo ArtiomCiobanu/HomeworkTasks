@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Projects\RiderProjects\TestConsoleApp\ConsoleApp1" t="IncludeFlat">
-      <e p="ConsoleApp1" t="IncludeRecursive">
+      <e p="ConsoleApp1.sln" t="IncludeFlat" />
+      <e p="DataAccessRefactor" t="IncludeRecursive">
         <e p="API" t="Include">
           <e p="Attributes" t="Include">
             <e p="DataSourceAccesserAttribute.cs" t="Include" />
@@ -24,14 +25,14 @@
           <e p="UserProcessor.cs" t="Include" />
         </e>
         <e p="bin" t="ExcludeRecursive" />
-        <e p="ConsoleApp1.csproj" t="IncludeRecursive" />
+        <e p="DataAccessRefactor.csproj" t="IncludeRecursive" />
         <e p="Models" t="Include">
           <e p="User.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
-              <e p="ConsoleApp1.AssemblyInfo.cs" t="Include" />
+              <e p="DataAccessRefactor.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>
@@ -41,9 +42,34 @@
         </e>
         <e p="Program.cs" t="Include" />
       </e>
-      <e p="ConsoleApp1.sln" t="IncludeFlat" />
+      <e p="DIHomeworkCiobanuArtiom" t="IncludeRecursive">
+        <e p="API" t="Include">
+          <e p="DataSourceAccessers" t="Include">
+            <e p="IDataSourceAccesser.cs" t="Include" />
+            <e p="JsonAccesser.cs" t="Include" />
+          </e>
+          <e p="Repositories" t="Include">
+            <e p="ITaskRepository.cs" t="Include" />
+            <e p="TaskRepository.cs" t="Include" />
+          </e>
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DIHomeworkCiobanuArtiom.csproj" t="IncludeRecursive" />
+        <e p="Models" t="Include">
+          <e p="UserTask.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="DIHomeworkCiobanuArtiom.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="UserTasks.json" t="Include" />
+      </e>
       <e p="packages" t="ExcludeRecursive" />
-      <e p="TennisGame" t="IncludeRecursive">
+      <e p="TennisGameRefactor" t="IncludeRecursive">
         <e p="API" t="Include">
           <e p="Player.cs" t="Include" />
           <e p="ScoreCounter.cs" t="Include" />
@@ -53,7 +79,7 @@
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
-              <e p="TennisGame.AssemblyInfo.cs" t="Include" />
+              <e p="TennisGameRefactor.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>
@@ -62,7 +88,7 @@
           <e p="BadTennisGame.cs" t="Include" />
         </e>
         <e p="Program.cs" t="Include" />
-        <e p="TennisGame.csproj" t="IncludeRecursive" />
+        <e p="TennisGameRefactor.csproj" t="IncludeRecursive" />
       </e>
     </e>
     <e p="C:\Users\aciobanu\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />

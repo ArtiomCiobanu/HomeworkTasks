@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "rcO1ZTdJXN4MH3LiGuHkfMiwAaQzFTqYsG+vyijORakkuUfTQMhpqa+uMjRsEh0ij55OmxSMOOaWQTe8WV1vPw==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\RiderProjects\\TestConsoleApp\\ConsoleApp1\\DependencyInjection\\DependencyInjection.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aciobanu\\.nuget\\packages\\autofac\\6.0.0\\autofac.6.0.0.nupkg.sha512",
+    "C:\\Users\\aciobanu\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\aciobanu\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}
