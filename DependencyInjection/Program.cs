@@ -13,11 +13,12 @@ namespace DependencyInjection
         {
             var path = @"UserTasks.json";
 
-            ContainerBuilder builder = new ContainerBuilder();
+            var builder = new ContainerBuilder();
 
-            builder.Register<JsonAccesser>(ja => new JsonAccesser(path))
-                .As<IDataSourceAccesser<UserTask>>();
-            builder.RegisterType<TaskRepository>().As<ITaskRepository>();
+            builder.Register(ja => new JsonTaskAccesser(path))
+                .As<IDataSourceAccesser>();
+            builder.RegisterType<TaskRepository>().As<ITaskRepository>().SingleInstance();
+            builder.RegisterType<UserTask>().As<IUserTask>();
 
             var container = builder.Build();
 
@@ -26,7 +27,25 @@ namespace DependencyInjection
                 var taskRepository = container.Resolve<ITaskRepository>();
 
                 var result = taskRepository.GetAllTasks().ToList();
-                Console.WriteLine(result.Count);
+
+                Console.WriteLine($"Total amount of tasks: {result.Count}");
+                foreach (var userTask in result)
+                {
+                    var task = (UserTask) userTask;
+
+                    Console.WriteLine();
+                    Console.WriteLine($"{task.Title}:");
+                    Console.WriteLine(task.Content);
+                }
+
+                Console.WriteLine();
+                Console.WriteLine("Getting a task with id = 2: ");
+                var foundTask = (UserTask) taskRepository.GetTaskById(2);
+                Console.WriteLine($"{foundTask.Title}:");
+                Console.WriteLine(foundTask.Content);
+
+                foundTask.Title = "Updated Task2 Title!";
+                taskRepository.UpdateTask(foundTask);
             }
         }
     }

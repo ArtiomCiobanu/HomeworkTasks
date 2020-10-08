@@ -5,9 +5,9 @@ namespace DependencyInjection.API.Repositories
 {
     public interface ITaskRepository
     {
-        IEnumerable<UserTask> GetAllTasks();
-        UserTask GetTaskById(int id);
-        void UpdateTask(UserTask task);
-        void AddTask(UserTask task);
+        IEnumerable<IUserTask> GetAllTasks();
+        IUserTask GetTaskById(int id);
+        void UpdateTask(IUserTask task);
+        void AddTask(IUserTask task);
     }
 }

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\aciob\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\aciob\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_HomeworkTasks.-1162366824.00" t="ExcludeRecursive" />
+    <e p="D:\Projects\HomeworkTasks" t="IncludeFlat">
+      <e p="DataAccessRefactor" t="IncludeRecursive">
+        <e p="API" t="Include">
+          <e p="Attributes" t="Include">
+            <e p="DataSourceAccesserAttribute.cs" t="Include" />
+          </e>
+          <e p="DataSourceAccessers" t="Include">
+            <e p="DatabaseAccessser.cs" t="Include" />
+            <e p="FileAccesser.cs" t="Include" />
+            <e p="IDataSourceAccesser.cs" t="Include" />
+            <e p="MemoryAccesser.cs" t="Include" />
+          </e>
+          <e p="Enums" t="Include">
+            <e p="AccesserType.cs" t="Include" />
+            <e p="OperationType.cs" t="Include" />
+          </e>
+          <e p="Static classes" t="Include">
+            <e p="DataSourceAccesserFactory.cs" t="Include" />
+            <e p="UserManager.cs" t="Include" />
+          </e>
+          <e p="UserProcessor.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DataAccessRefactor.csproj" t="IncludeRecursive" />
+        <e p="Models" t="Include">
+          <e p="User.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="DataAccessRefactor.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Old" t="Include">
+          <e p="BadProgram.cs" t="Include" />
+          <e p="SwitchTest.cs" t="Include" />
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="DependencyInjection" t="IncludeRecursive">
+        <e p="API" t="Include">
+          <e p="DataSourceAccessers" t="Include">
+            <e p="IDataSourceAccesser.cs" t="Include" />
+            <e p="JsonTaskAccesser.cs" t="Include" />
+          </e>
+          <e p="Repositories" t="Include">
+            <e p="ITaskRepository.cs" t="Include" />
+            <e p="TaskRepository.cs" t="Include" />
+          </e>
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DependencyInjection.csproj" t="IncludeRecursive" />
+        <e p="Models" t="Include">
+          <e p="IUserTask.cs" t="Include" />
+          <e p="UserTask.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="DependencyInjection.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="UserTasks.json" t="Include" />
+      </e>
+      <e p="HomeworkTasks.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="TennisGameRefactor" t="IncludeRecursive">
+        <e p="API" t="Include">
+          <e p="Player.cs" t="Include" />
+          <e p="ScoreCounter.cs" t="Include" />
+          <e p="TennisGame.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="TennisGameRefactor.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Old" t="Include">
+          <e p="BadProgram.cs" t="Include" />
+          <e p="BadTennisGame.cs" t="Include" />
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="TennisGameRefactor.csproj" t="IncludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>

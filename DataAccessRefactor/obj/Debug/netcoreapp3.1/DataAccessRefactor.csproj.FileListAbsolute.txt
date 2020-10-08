@@ -1,0 +1,16 @@
+D:\Projects\HomeworkTasks\DataAccessRefactor\bin\Debug\netcoreapp3.1\DataAccessRefactor.exe
+D:\Projects\HomeworkTasks\DataAccessRefactor\bin\Debug\netcoreapp3.1\DataAccessRefactor.deps.json
+D:\Projects\HomeworkTasks\DataAccessRefactor\bin\Debug\netcoreapp3.1\DataAccessRefactor.runtimeconfig.json
+D:\Projects\HomeworkTasks\DataAccessRefactor\bin\Debug\netcoreapp3.1\DataAccessRefactor.runtimeconfig.dev.json
+D:\Projects\HomeworkTasks\DataAccessRefactor\bin\Debug\netcoreapp3.1\DataAccessRefactor.dll
+D:\Projects\HomeworkTasks\DataAccessRefactor\bin\Debug\netcoreapp3.1\DataAccessRefactor.pdb
+D:\Projects\HomeworkTasks\DataAccessRefactor\bin\Debug\netcoreapp3.1\Dapper.dll
+D:\Projects\HomeworkTasks\DataAccessRefactor\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Projects\HomeworkTasks\DataAccessRefactor\obj\Debug\netcoreapp3.1\DataAccessRefactor.csprojAssemblyReference.cache
+D:\Projects\HomeworkTasks\DataAccessRefactor\obj\Debug\netcoreapp3.1\DataAccessRefactor.AssemblyInfoInputs.cache
+D:\Projects\HomeworkTasks\DataAccessRefactor\obj\Debug\netcoreapp3.1\DataAccessRefactor.AssemblyInfo.cs
+D:\Projects\HomeworkTasks\DataAccessRefactor\obj\Debug\netcoreapp3.1\DataAccessRefactor.csproj.CoreCompileInputs.cache
+D:\Projects\HomeworkTasks\DataAccessRefactor\obj\Debug\netcoreapp3.1\DataAccessRefactor.csproj.CopyComplete
+D:\Projects\HomeworkTasks\DataAccessRefactor\obj\Debug\netcoreapp3.1\DataAccessRefactor.dll
+D:\Projects\HomeworkTasks\DataAccessRefactor\obj\Debug\netcoreapp3.1\DataAccessRefactor.pdb
+D:\Projects\HomeworkTasks\DataAccessRefactor\obj\Debug\netcoreapp3.1\DataAccessRefactor.genruntimeconfig.cache

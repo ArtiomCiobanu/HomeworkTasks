@@ -2,9 +2,9 @@
 
 namespace DependencyInjection.API.DataSourceAccessers
 {
-    public interface IDataSourceAccesser<Model> where Model : class
+    public interface IDataSourceAccesser
     {
-        IEnumerable<Model> GetAllRecords();
-        
+        string GetFileAsString();
+        void WriteToFile(string data);
     }
 }
