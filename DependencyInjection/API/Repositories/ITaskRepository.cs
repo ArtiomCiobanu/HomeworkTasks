@@ -3,11 +3,7 @@ using DependencyInjection.Models;
 
 namespace DependencyInjection.API.Repositories
 {
-    public interface ITaskRepository
+    public interface ITaskRepository : IRepository<IUserTask>
     {
-        IEnumerable<IUserTask> GetAllTasks();
-        IUserTask GetTaskById(int id);
-        void UpdateTask(IUserTask task);
-        void AddTask(IUserTask task);
     }
 }

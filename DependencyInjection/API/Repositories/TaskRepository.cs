@@ -25,52 +25,76 @@ namespace DependencyInjection.API.Repositories
 
         private bool SourceHasBeenUpdated { get; set; }
 
-        private IDataSourceAccesser Accesser { get; }
+        private IDataSourceAccessor Accessor { get; }
 
-        public TaskRepository(IDataSourceAccesser accesser)
+        public TaskRepository(IDataSourceAccessor accessor)
         {
             SourceHasBeenUpdated = false;
-            Accesser = accesser;
+            Accessor = accessor;
         }
 
-        public IEnumerable<IUserTask> GetAllTasks()
+        public IEnumerable<IUserTask> GetAll() => Tasks;
+
+        public IUserTask GetById(int id)
         {
-            return GetDeserializedTasks();
+            return Tasks.First(t => t.Id == id);
         }
 
-        public IUserTask GetTaskById(int id)
+        public void Update(IUserTask task)
         {
-            return GetDeserializedTasks().First(t => t.Id == id);
-        }
-
-        public void UpdateTask(IUserTask task)
-        {
-            var tasks = GetDeserializedTasks().ToArray();
+            var tasks = Tasks.ToArray();
             tasks[task.Id - 1] = task;
 
-            Accesser.WriteToFile(GetSerializedTasks(tasks));
+            Accessor.Write(GetSerializedTasks(tasks));
 
             SourceHasBeenUpdated = true;
         }
 
-        public void AddTask(IUserTask task)
+        public void Add(IUserTask task)
         {
-            var tasks = GetDeserializedTasks().ToList();
+            var tasks = Tasks.ToList();
+            if (tasks.Count > 0)
+            {
+                task.Id = tasks.Last().Id + 1;
+            }
+            else
+            {
+                task.Id = 0;
+            }
+
             tasks.Add(task);
 
+            Accessor.Write(GetSerializedTasks(tasks));
+
             SourceHasBeenUpdated = true;
+        }
+
+        public void Delete(IUserTask task)
+        {
+            var tasks = Tasks.ToList();
+            tasks.Remove(task);
+
+            Accessor.Write(GetSerializedTasks(tasks));
+
+            SourceHasBeenUpdated = true;
+        }
+
+        public void DeleteById(int id)
+        {
+            var task = Tasks.First(t => t.Id == id);
+            Delete(task);
         }
 
         private IEnumerable<IUserTask> GetDeserializedTasks()
         {
-            var input = Accesser.GetFileAsString();
+            var input = Accessor.Read();
 
             return JsonConvert.DeserializeObject<IEnumerable<UserTask>>(input);
         }
 
         private static string GetSerializedTasks(IEnumerable<IUserTask> tasks)
         {
-            return JsonConvert.SerializeObject(tasks);
+            return JsonConvert.SerializeObject(tasks, Formatting.Indented);
         }
     }
 }

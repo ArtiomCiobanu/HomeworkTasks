@@ -46,10 +46,19 @@
       <e p="DependencyInjection" t="IncludeRecursive">
         <e p="API" t="Include">
           <e p="DataSourceAccessers" t="Include">
-            <e p="IDataSourceAccesser.cs" t="Include" />
-            <e p="JsonTaskAccesser.cs" t="Include" />
+            <e p="IDataSourceAccessor.cs" t="Include" />
+            <e p="JsonTaskAccessor.cs" t="Include" />
+          </e>
+          <e p="Initializers" t="Include">
+            <e p="ConsoleTaskInitializer.cs" t="Include" />
+            <e p="ITaskInitializer.cs" t="Include" />
+          </e>
+          <e p="Printers" t="Include">
+            <e p="ConsoleTaskPrinter.cs" t="Include" />
+            <e p="ITaskPrinter.cs" t="Include" />
           </e>
           <e p="Repositories" t="Include">
+            <e p="IRepository.cs" t="Include" />
             <e p="ITaskRepository.cs" t="Include" />
             <e p="TaskRepository.cs" t="Include" />
           </e>

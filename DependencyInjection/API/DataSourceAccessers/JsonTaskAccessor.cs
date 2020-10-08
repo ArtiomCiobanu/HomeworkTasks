@@ -5,24 +5,22 @@ using Newtonsoft.Json;
 
 namespace DependencyInjection.API.DataSourceAccessers
 {
-    public class JsonTaskAccesser : IDataSourceAccesser
+    public class JsonTaskAccessor : IDataSourceAccessor
     {
         private string FilePath { get; set; }
 
-        public string GetFileAsString()
+        public string Read()
         {
-            var input = File.ReadAllText(FilePath);
-
-            return input;
+            return File.ReadAllText(FilePath);
         }
 
-        public void WriteToFile(string data)
+        public void Write(string data)
         {
             File.WriteAllText(FilePath, data);
         }
 
 
-        public JsonTaskAccesser(string filePath)
+        public JsonTaskAccessor(string filePath)
         {
             SetFilePath(filePath);
         }
