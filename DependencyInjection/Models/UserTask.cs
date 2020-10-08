@@ -1,6 +1,6 @@
 ﻿namespace DependencyInjection.Models
 {
-    public class UserTask : IUserTask
+    public class UserTask
     {
         public int Id { get; set; }
         public string Title { get; set; }

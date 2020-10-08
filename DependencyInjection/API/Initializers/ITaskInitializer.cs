@@ -5,6 +5,6 @@ namespace DependencyInjection.API.Initializers
 {
     public interface ITaskInitializer
     {
-        public IUserTask InitializeTask(ILifetimeScope lifetimeScope);
+        public UserTask InitializeTask(ILifetimeScope lifetimeScope);
     }
 }

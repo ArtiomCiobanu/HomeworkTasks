@@ -5,7 +5,7 @@ namespace DependencyInjection.API.Printers
 {
     public interface ITaskPrinter
     {
-        void PrintTask(IUserTask userTask);
-        void PrintTaskCollection(IEnumerable<IUserTask> taskCollection);
+        void PrintTask(UserTask userTask);
+        void PrintTaskCollection(IEnumerable<UserTask> taskCollection);
     }
 }

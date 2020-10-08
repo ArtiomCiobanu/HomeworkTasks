@@ -25,25 +25,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20504c11-5da4-45c8-ae5a-cd23abec3bec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DependencyInjection/API/Initializers/ConsoleTaskInitializer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DependencyInjection/API/Initializers/ITaskInitializer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DependencyInjection/API/Printers/ConsoleTaskPrinter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DependencyInjection/API/Printers/ITaskPrinter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DependencyInjection/API/Repositories/IRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.HomeworkTasks/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HomeworkTasks/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.HomeworkTasks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HomeworkTasks/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DependencyInjection/API/DataSourceAccessers/IDataSourceAccesser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DependencyInjection/API/DataSourceAccessers/IDataSourceAccessor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DependencyInjection/API/DataSourceAccessers/JsonTaskAccesser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DependencyInjection/API/DataSourceAccessers/JsonTaskAccessor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DependencyInjection/API/Repositories/ITaskRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DependencyInjection/API/Repositories/ITaskRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DependencyInjection/API/Repositories/TaskRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DependencyInjection/API/Repositories/TaskRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DependencyInjection/DependencyInjection.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DependencyInjection/DependencyInjection.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DependencyInjection/Models/IUserTask.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DependencyInjection/Models/IUserTask.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DependencyInjection/Models/IUserTask.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/DependencyInjection/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DependencyInjection/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DependencyInjection/bin/Debug/netcoreapp3.1/DependencyInjection.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DependencyInjection/bin/Debug/netcoreapp3.1/DependencyInjection.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DependencyInjection/bin/Debug/netcoreapp3.1/DependencyInjection.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DependencyInjection/bin/Debug/netcoreapp3.1/DependencyInjection.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DependencyInjection/obj/Debug/netcoreapp3.1/DependencyInjection.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DependencyInjection/obj/Debug/netcoreapp3.1/DependencyInjection.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DependencyInjection/obj/Debug/netcoreapp3.1/DependencyInjection.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DependencyInjection/obj/Debug/netcoreapp3.1/DependencyInjection.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DependencyInjection/obj/Debug/netcoreapp3.1/DependencyInjection.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DependencyInjection/obj/Debug/netcoreapp3.1/DependencyInjection.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,8 +61,8 @@
         <option value="$PROJECT_DIR$/DependencyInjection/API/Repositories/IRepository.cs" />
         <option value="$PROJECT_DIR$/DependencyInjection/API/Initializers/ITaskInitializer.cs" />
         <option value="$PROJECT_DIR$/DependencyInjection/API/Initializers/ConsoleTaskInitializer.cs" />
-        <option value="$PROJECT_DIR$/DependencyInjection/Program.cs" />
         <option value="$PROJECT_DIR$/DependencyInjection/API/Repositories/TaskRepository.cs" />
+        <option value="$PROJECT_DIR$/DependencyInjection/Program.cs" />
       </list>
     </option>
   </component>
@@ -200,22 +184,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="420" height="464" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1602173406690" />
-    <state width="1493" height="497" key="GridCell.Tab.0.bottom" timestamp="1602185821988">
+    <state width="1493" height="497" key="GridCell.Tab.0.bottom" timestamp="1602186000477">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="497" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602185821988" />
-    <state width="1493" height="497" key="GridCell.Tab.0.center" timestamp="1602185821988">
+    <state width="1493" height="497" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602186000477" />
+    <state width="1493" height="497" key="GridCell.Tab.0.center" timestamp="1602186000477">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="497" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602185821988" />
-    <state width="1493" height="497" key="GridCell.Tab.0.left" timestamp="1602185821988">
+    <state width="1493" height="497" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602186000477" />
+    <state width="1493" height="497" key="GridCell.Tab.0.left" timestamp="1602186000477">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="497" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602185821988" />
-    <state width="1493" height="497" key="GridCell.Tab.0.right" timestamp="1602185821988">
+    <state width="1493" height="497" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602186000477" />
+    <state width="1493" height="497" key="GridCell.Tab.0.right" timestamp="1602186000477">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="497" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602185821988" />
+    <state width="1493" height="497" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602186000477" />
     <state width="1493" height="205" key="GridCell.Tab.1.bottom" timestamp="1602185679634">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

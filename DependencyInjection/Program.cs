@@ -19,7 +19,6 @@ namespace DependencyInjection
 
             var builder = new ContainerBuilder();
 
-            builder.RegisterType<UserTask>().As<IUserTask>();
             builder.Register(ja => new JsonTaskAccessor(path))
                 .As<IDataSourceAccessor>();
             builder.RegisterType<TaskRepository>().As<ITaskRepository>().SingleInstance();
@@ -54,7 +53,7 @@ namespace DependencyInjection
                     }
 
                     int id = 0;
-                    IUserTask task;
+                    UserTask task;
                     switch (action)
                     {
                         case 1:

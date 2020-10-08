@@ -8,9 +8,9 @@ namespace DependencyInjection.API.Repositories
 {
     public class TaskRepository : ITaskRepository
     {
-        private IEnumerable<IUserTask> _tasks;
+        private IEnumerable<UserTask> _tasks;
 
-        private IEnumerable<IUserTask> Tasks
+        private IEnumerable<UserTask> Tasks
         {
             get
             {
@@ -33,14 +33,14 @@ namespace DependencyInjection.API.Repositories
             Accessor = accessor;
         }
 
-        public IEnumerable<IUserTask> GetAll() => Tasks;
+        public IEnumerable<UserTask> GetAll() => Tasks;
 
-        public IUserTask GetById(int id)
+        public UserTask GetById(int id)
         {
             return Tasks.First(t => t.Id == id);
         }
 
-        public void Update(IUserTask task)
+        public void Update(UserTask task)
         {
             var tasks = Tasks.ToArray();
             tasks[task.Id - 1] = task;
@@ -50,7 +50,7 @@ namespace DependencyInjection.API.Repositories
             SourceHasBeenUpdated = true;
         }
 
-        public void Add(IUserTask task)
+        public void Add(UserTask task)
         {
             var tasks = Tasks.ToList();
             if (tasks.Count > 0)
@@ -60,7 +60,7 @@ namespace DependencyInjection.API.Repositories
             else
             {
                 task.Id = 0;
-            }
+            } 
 
             tasks.Add(task);
 
@@ -69,7 +69,7 @@ namespace DependencyInjection.API.Repositories
             SourceHasBeenUpdated = true;
         }
 
-        public void Delete(IUserTask task)
+        public void Delete(UserTask task)
         {
             var tasks = Tasks.ToList();
             tasks.Remove(task);
@@ -85,14 +85,14 @@ namespace DependencyInjection.API.Repositories
             Delete(task);
         }
 
-        private IEnumerable<IUserTask> GetDeserializedTasks()
+        private IEnumerable<UserTask> GetDeserializedTasks()
         {
             var input = Accessor.Read();
 
             return JsonConvert.DeserializeObject<IEnumerable<UserTask>>(input);
         }
 
-        private static string GetSerializedTasks(IEnumerable<IUserTask> tasks)
+        private static string GetSerializedTasks(IEnumerable<UserTask> tasks)
         {
             return JsonConvert.SerializeObject(tasks, Formatting.Indented);
         }

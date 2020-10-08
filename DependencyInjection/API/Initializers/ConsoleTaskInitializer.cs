@@ -6,9 +6,9 @@ namespace DependencyInjection.API.Initializers
 {
     public class ConsoleTaskInitializer : ITaskInitializer
     {
-        public IUserTask InitializeTask(ILifetimeScope lifetimeScope)
+        public UserTask InitializeTask(ILifetimeScope lifetimeScope)
         {
-            var userTask = lifetimeScope.Resolve<IUserTask>();
+            var userTask = new UserTask();
 
             Console.WriteLine("Now enter the task data:");
             Console.WriteLine("Enter the title:");
