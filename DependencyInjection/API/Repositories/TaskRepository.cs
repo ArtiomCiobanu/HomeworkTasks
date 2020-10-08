@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using DependencyInjection.API.DataSourceAccessers;
 using DependencyInjection.Models;
@@ -60,7 +61,7 @@ namespace DependencyInjection.API.Repositories
             else
             {
                 task.Id = 0;
-            } 
+            }
 
             tasks.Add(task);
 
@@ -88,7 +89,6 @@ namespace DependencyInjection.API.Repositories
         private IEnumerable<UserTask> GetDeserializedTasks()
         {
             var input = Accessor.Read();
-
             return JsonConvert.DeserializeObject<IEnumerable<UserTask>>(input);
         }
 

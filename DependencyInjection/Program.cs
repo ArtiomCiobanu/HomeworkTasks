@@ -10,9 +10,9 @@ using DependencyInjection.Models;
 
 namespace DependencyInjection
 {
-    class Program
+    internal static class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             //var path = @"UserTasks.json";
             var path = @"C:\UserTasks.json";
