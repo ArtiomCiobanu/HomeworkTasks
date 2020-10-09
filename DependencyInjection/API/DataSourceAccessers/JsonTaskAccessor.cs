@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Net;
 using DependencyInjection.Models;
 using Newtonsoft.Json;
@@ -13,7 +14,15 @@ namespace DependencyInjection.API.DataSourceAccessers
 
         public string Read()
         {
-            return File.ReadAllText(FilePath);
+            try
+            {
+                return File.ReadAllText(FilePath);
+            }
+            catch (FileNotFoundException)
+            {
+                File.Create(FilePath).Dispose();
+                return "[]";
+            }
         }
 
         public void Write(string data)

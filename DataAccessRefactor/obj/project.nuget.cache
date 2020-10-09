@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "K1/rn5I8HhAfOxh6nFQjw0ymwrsUw0vel/GXlCNeEvVWMozjkLce93XEa/wrJxyreeZY7/6wm511CmDQqmyC+A==",
+  "dgSpecHash": "tHWwj6wgTkhNbxv/UVibpdZLu1aSWifMYfBBG1g0G3/v8Fu1aEBUPBK18W9OZ8m+fdsic4hHu/yLu0hAJ4SpoA==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\HomeworkTasks\\DataAccessRefactor\\DataAccessRefactor.csproj",
+  "projectFilePath": "C:\\Projects\\RiderProjects\\HomeworkTasks\\DataAccessRefactor\\DataAccessRefactor.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\aciob\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",
-    "C:\\Users\\aciob\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
-    "C:\\Users\\aciob\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
+    "C:\\Users\\aciobanu\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",
+    "C:\\Users\\aciobanu\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\aciobanu\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }
