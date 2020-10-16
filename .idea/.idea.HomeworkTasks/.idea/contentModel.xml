@@ -76,6 +76,19 @@
         <e p="Program.cs" t="Include" />
       </e>
       <e p="HomeworkTasks.sln" t="IncludeFlat" />
+      <e p="LinqToXML" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="books.xml" t="Include" />
+        <e p="LinqToXML.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="LinqToXML.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
       <e p="packages" t="ExcludeRecursive" />
       <e p="TennisGameRefactor" t="IncludeRecursive">
         <e p="API" t="Include">
