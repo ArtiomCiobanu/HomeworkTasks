@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Xml.Linq;
+using LinqToXML.Extentions;
 
 namespace LinqToXML.Models
 {
@@ -30,12 +31,12 @@ namespace LinqToXML.Models
         {
             Book book = new Book
             {
-                Author = xElement.Element("author").Value,
-                Title = xElement.Element("title").Value,
-                Genre = xElement.Element("genre").Value,
-                Price = float.Parse(xElement.Element("price").Value),
-                PublishDate = DateTime.Parse(xElement.Element("publish_date").Value),
-                Description = xElement.Element("description").Value
+                Author = xElement.ElementValue("author"),
+                Title = xElement.ElementValue("title"),
+                Genre = xElement.ElementValue("genre"),
+                Price = float.Parse(xElement.ElementValue("price")),
+                PublishDate = DateTime.Parse(xElement.ElementValue("publish_date")),
+                Description = xElement.ElementValue("description")
             };
 
             return book;
