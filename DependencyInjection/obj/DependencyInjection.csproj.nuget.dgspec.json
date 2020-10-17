@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\RiderProjects\\HomeworkTasks\\DependencyInjection\\DependencyInjection.csproj": {}
+    "D:\\Projects\\HomeworkTasks\\DependencyInjection\\DependencyInjection.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\RiderProjects\\HomeworkTasks\\DependencyInjection\\DependencyInjection.csproj": {
+    "D:\\Projects\\HomeworkTasks\\DependencyInjection\\DependencyInjection.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\RiderProjects\\HomeworkTasks\\DependencyInjection\\DependencyInjection.csproj",
+        "projectUniqueName": "D:\\Projects\\HomeworkTasks\\DependencyInjection\\DependencyInjection.csproj",
         "projectName": "DependencyInjection",
-        "projectPath": "C:\\Projects\\RiderProjects\\HomeworkTasks\\DependencyInjection\\DependencyInjection.csproj",
-        "packagesPath": "C:\\Users\\aciobanu\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\RiderProjects\\HomeworkTasks\\DependencyInjection\\obj\\",
+        "projectPath": "D:\\Projects\\HomeworkTasks\\DependencyInjection\\DependencyInjection.csproj",
+        "packagesPath": "C:\\Users\\aciob\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\HomeworkTasks\\DependencyInjection\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\aciobanu\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\aciob\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -60,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\aciobanu\\.dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
