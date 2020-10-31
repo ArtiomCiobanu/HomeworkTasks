@@ -4,7 +4,6 @@ C:\Projects\RiderProjects\HomeworkTasks\LinqToXML\bin\Debug\netcoreapp3.1\LinqTo
 C:\Projects\RiderProjects\HomeworkTasks\LinqToXML\bin\Debug\netcoreapp3.1\LinqToXML.runtimeconfig.dev.json
 C:\Projects\RiderProjects\HomeworkTasks\LinqToXML\bin\Debug\netcoreapp3.1\LinqToXML.dll
 C:\Projects\RiderProjects\HomeworkTasks\LinqToXML\bin\Debug\netcoreapp3.1\LinqToXML.pdb
-C:\Projects\RiderProjects\HomeworkTasks\LinqToXML\obj\Debug\netcoreapp3.1\LinqToXML.csprojAssemblyReference.cache
 C:\Projects\RiderProjects\HomeworkTasks\LinqToXML\obj\Debug\netcoreapp3.1\LinqToXML.AssemblyInfoInputs.cache
 C:\Projects\RiderProjects\HomeworkTasks\LinqToXML\obj\Debug\netcoreapp3.1\LinqToXML.AssemblyInfo.cs
 C:\Projects\RiderProjects\HomeworkTasks\LinqToXML\obj\Debug\netcoreapp3.1\LinqToXML.csproj.CoreCompileInputs.cache
@@ -26,3 +25,4 @@ D:\Projects\HomeworkTasks\LinqToXML\obj\Debug\netcoreapp3.1\LinqToXML.csproj.Cor
 D:\Projects\HomeworkTasks\LinqToXML\obj\Debug\netcoreapp3.1\LinqToXML.dll
 D:\Projects\HomeworkTasks\LinqToXML\obj\Debug\netcoreapp3.1\LinqToXML.pdb
 D:\Projects\HomeworkTasks\LinqToXML\obj\Debug\netcoreapp3.1\LinqToXML.genruntimeconfig.cache
+C:\Projects\RiderProjects\HomeworkTasks\LinqToXML\obj\Debug\netcoreapp3.1\LinqToXML.csprojAssemblyReference.cache

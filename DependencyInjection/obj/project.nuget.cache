@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "WL7EKymNGhrng6sbEx7VrVVb4sRK1GTQejs9rL5LCGC+AJ937ziBMX7j27RZB3wf3zkMD42aHE5oxe+mt1/w8Q==",
+  "dgSpecHash": "e5YgtuwfojFAeHYTAoJNrCl2ooQ7wdayVKNd70LQmSD/xoR68B3DACOQ2bssNmOchDg92gtWIfc3aIeRE0ctlA==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\HomeworkTasks\\DependencyInjection\\DependencyInjection.csproj",
+  "projectFilePath": "C:\\Projects\\RiderProjects\\HomeworkTasks\\DependencyInjection\\DependencyInjection.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\aciob\\.nuget\\packages\\autofac\\6.0.0\\autofac.6.0.0.nupkg.sha512",
-    "C:\\Users\\aciob\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
-    "C:\\Users\\aciob\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+    "C:\\Users\\aciobanu\\.nuget\\packages\\autofac\\6.0.0\\autofac.6.0.0.nupkg.sha512",
+    "C:\\Users\\aciobanu\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\aciobanu\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
   ],
   "logs": []
 }

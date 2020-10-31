@@ -1,0 +1,13 @@
+C:\Projects\RiderProjects\HomeworkTasks\TennisGameRefactor\bin\Release\netcoreapp3.1\TennisGameRefactor.exe
+C:\Projects\RiderProjects\HomeworkTasks\TennisGameRefactor\bin\Release\netcoreapp3.1\TennisGameRefactor.deps.json
+C:\Projects\RiderProjects\HomeworkTasks\TennisGameRefactor\bin\Release\netcoreapp3.1\TennisGameRefactor.runtimeconfig.json
+C:\Projects\RiderProjects\HomeworkTasks\TennisGameRefactor\bin\Release\netcoreapp3.1\TennisGameRefactor.runtimeconfig.dev.json
+C:\Projects\RiderProjects\HomeworkTasks\TennisGameRefactor\bin\Release\netcoreapp3.1\TennisGameRefactor.dll
+C:\Projects\RiderProjects\HomeworkTasks\TennisGameRefactor\bin\Release\netcoreapp3.1\TennisGameRefactor.pdb
+C:\Projects\RiderProjects\HomeworkTasks\TennisGameRefactor\obj\Release\netcoreapp3.1\TennisGameRefactor.csprojAssemblyReference.cache
+C:\Projects\RiderProjects\HomeworkTasks\TennisGameRefactor\obj\Release\netcoreapp3.1\TennisGameRefactor.AssemblyInfoInputs.cache
+C:\Projects\RiderProjects\HomeworkTasks\TennisGameRefactor\obj\Release\netcoreapp3.1\TennisGameRefactor.AssemblyInfo.cs
+C:\Projects\RiderProjects\HomeworkTasks\TennisGameRefactor\obj\Release\netcoreapp3.1\TennisGameRefactor.csproj.CoreCompileInputs.cache
+C:\Projects\RiderProjects\HomeworkTasks\TennisGameRefactor\obj\Release\netcoreapp3.1\TennisGameRefactor.dll
+C:\Projects\RiderProjects\HomeworkTasks\TennisGameRefactor\obj\Release\netcoreapp3.1\TennisGameRefactor.pdb
+C:\Projects\RiderProjects\HomeworkTasks\TennisGameRefactor\obj\Release\netcoreapp3.1\TennisGameRefactor.genruntimeconfig.cache

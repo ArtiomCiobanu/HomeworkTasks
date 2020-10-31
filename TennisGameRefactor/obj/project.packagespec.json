@@ -1,15 +1,11 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "D:\\Projects\\HomeworkTasks\\TennisGameRefactor\\TennisGameRefactor.csproj",
+    "projectUniqueName": "C:\\Projects\\RiderProjects\\HomeworkTasks\\TennisGameRefactor\\TennisGameRefactor.csproj",
     "projectName": "TennisGameRefactor",
-    "projectPath": "D:\\Projects\\HomeworkTasks\\TennisGameRefactor\\TennisGameRefactor.csproj",
-    "outputPath": "D:\\Projects\\HomeworkTasks\\TennisGameRefactor\\obj\\",
+    "projectPath": "C:\\Projects\\RiderProjects\\HomeworkTasks\\TennisGameRefactor\\TennisGameRefactor.csproj",
+    "outputPath": "C:\\Projects\\RiderProjects\\HomeworkTasks\\TennisGameRefactor\\obj\\",
     "projectStyle": "PackageReference",
-    "fallbackFolders": [
-      "C:\\Microsoft\\Xamarin\\NuGet",
-      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-    ],
     "originalTargetFrameworks": [
       "netcoreapp3.1"
     ],
@@ -45,7 +41,7 @@
           "privateAssets": "all"
         }
       },
-      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
     }
   }
 }
